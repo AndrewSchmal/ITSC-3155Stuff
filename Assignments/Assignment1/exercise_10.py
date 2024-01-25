@@ -1,0 +1,3 @@
+# Create a BankAccount class which has an __init__ method which accepts an account name and starting balance to 
+# store as instance fields. The class should also have a method to deposit money, a method to withdraw money, 
+# and a method called "get_balance" which returns a string of the format "{account_name} has a balance of {balance}" (do not print this out from within the class, just return the string). In the same file, create an instance of the BankAccount class with a hardcoded name and starting balance. Deposit any amount to the account and withdraw any amount from the account (both can be hardcoded) and then print the result of calling the get_balance method on the instance.
