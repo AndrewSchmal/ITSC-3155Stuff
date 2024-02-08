@@ -1,0 +1,32 @@
+<!-- # 6 Create an index.html page and add a <script> tag to the body. In the script tag, write some JavaScript that waits 5 seconds before popping up an alert box which should show a random number from 0 to 1. If the number is less than 0.5, then the message should print "{number} is less than 0.5", otherwise print "{number} is greater than or equal to 0.5", where {number} is the random number. You will need to use your resources to figure out how to accomplish this in JavaScript. -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Number Alert</title>
+    </head>
+    <body>
+        <p>Wait 5 seconds for a random number from 0 to 1 (if you want)</p>
+        <script>
+            // JavaScript code
+            setTimeout(function() {
+                var randomNumber = Math.random(); // Generate a random number between 0 and 1
+                if (randomNumber < 0.5) {
+                    alert(randomNumber + " is less than 0.5");
+                } else {
+                    alert(randomNumber + " is greater than or equal to 0.5");
+                }
+            }, 5000); // Wait for 5 seconds before executing the code
+        </script>
+    </body>
+    </html>
+    
+
+    <!-- 
+    Used setTimeout() function to execute a piece of code after x milliseconds, in this case 5000 = 5 sec
+    Used math.random to return a random number between 0 (including 0) and 1 (exclusive)
+    use if else to check if the number is either < .5 or >= .5
+        https://www.w3schools.com/jsref/met_win_settimeout.asp 
+        https://www.w3schools.com/js/js_random.asp
+    -->

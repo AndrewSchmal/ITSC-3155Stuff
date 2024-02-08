@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6495ED;
+    /* Set a nice blue color */
+}
+
+#main-title {
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 12px;
+    font-weight: bold;
+    /* I like how it looks bold better for readability */
+}
